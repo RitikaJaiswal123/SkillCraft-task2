@@ -1,0 +1,85 @@
+body {
+     font-family: Arial, sans-serif;
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     background-image: url(/public/images/stopwatchback.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 90vh;
+ }
+
+ .stopwatch {
+     margin-top: 50px;
+ }
+
+ .time {
+     font-size: 3rem;
+     margin: 20px 0;
+     color: white;
+ }
+
+ .buttons {
+     margin-bottom: 20px;
+ }
+
+ button {
+     font-size: 1rem;
+     padding: 10px 20px;
+     margin: 5px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+
+ button.start {
+     background: #4caf50;
+     color: #fff;
+ }
+
+ button.pause {
+     background: #fbc02d;
+     color: #fff;
+ }
+
+ button.reset {
+     background: #f44336;
+     color: #fff;
+ }
+
+ button:hover {
+     opacity: 0.9;
+ }
+
+ .laps,
+ .history {
+     max-width: 400px;
+     margin: 0 auto;
+     padding: 10px;
+     color: #fff;
+     border: 1.5px solid #fff ;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-bottom: 20px;
+ }
+
+ .laps h3,
+ .history h3 {
+     margin: 0;
+     padding: 10px 0;
+     font-size: 1.2rem;
+     border-bottom: 1px solid #ddd;
+ }
+
+ .lap,
+ .run {
+     padding: 5px 0;
+     border-bottom: 1px solid #ddd;
+ }
+
+ .lap:last-child,
+ .run:last-child {
+     border-bottom: none;
+ }
